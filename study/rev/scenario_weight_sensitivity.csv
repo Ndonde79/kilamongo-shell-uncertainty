@@ -1,0 +1,53 @@
+set,n,quantity,share_between
+reference+indicator+signed_distance+contacts,4,tonnes,0.9983
+reference+indicator+signed_distance+contacts,4,metal,0.9893
+reference+indicator+signed_distance,3,tonnes,0.9986
+reference+indicator+signed_distance,3,metal,0.9911
+reference+indicator+contacts,3,tonnes,0.9955
+reference+indicator+contacts,3,metal,0.9777
+reference+signed_distance+contacts,3,tonnes,0.9973
+reference+signed_distance+contacts,3,metal,0.9765
+indicator+signed_distance+contacts,3,tonnes,0.9989
+indicator+signed_distance+contacts,3,metal,0.9927
+reference+indicator,2,tonnes,0.9906
+reference+indicator,2,metal,0.9660
+reference+signed_distance,2,tonnes,0.9982
+reference+signed_distance,2,metal,0.9829
+reference+contacts,2,tonnes,0.9823
+reference+contacts,2,metal,0.8244
+indicator+signed_distance,2,tonnes,0.9992
+indicator+signed_distance,2,metal,0.9947
+indicator+contacts,2,tonnes,0.9972
+indicator+contacts,2,metal,0.9846
+signed_distance+contacts,2,tonnes,0.9972
+signed_distance+contacts,2,metal,0.9754
+weight reference=0.1,4,tonnes,0.9987
+weight reference=0.4,4,tonnes,0.9978
+weight reference=0.7,4,tonnes,0.9950
+weight indicator=0.1,4,tonnes,0.9980
+weight indicator=0.4,4,tonnes,0.9983
+weight indicator=0.7,4,tonnes,0.9973
+weight signed_distance=0.1,4,tonnes,0.9973
+weight signed_distance=0.4,4,tonnes,0.9987
+weight signed_distance=0.7,4,tonnes,0.9991
+weight contacts=0.1,4,tonnes,0.9985
+weight contacts=0.4,4,tonnes,0.9980
+weight contacts=0.7,4,tonnes,0.9965
+"Dirichlet(1,1,1,1) weights: min",4,tonnes,0.9620
+"Dirichlet(1,1,1,1) weights: P5",4,tonnes,0.9933
+"Dirichlet(1,1,1,1) weights: median",4,tonnes,0.9978
+weight reference=0.1,4,metal,0.9916
+weight reference=0.4,4,metal,0.9859
+weight reference=0.7,4,metal,0.9692
+weight indicator=0.1,4,metal,0.9859
+weight indicator=0.4,4,metal,0.9897
+weight indicator=0.7,4,metal,0.9848
+weight signed_distance=0.1,4,metal,0.9848
+weight signed_distance=0.4,4,metal,0.9912
+weight signed_distance=0.7,4,metal,0.9915
+weight contacts=0.1,4,metal,0.9905
+weight contacts=0.4,4,metal,0.9875
+weight contacts=0.7,4,metal,0.9784
+"Dirichlet(1,1,1,1) weights: min",4,metal,0.6190
+"Dirichlet(1,1,1,1) weights: P5",4,metal,0.9612
+"Dirichlet(1,1,1,1) weights: median",4,metal,0.9858

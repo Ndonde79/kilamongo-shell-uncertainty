@@ -1,0 +1,26 @@
+{
+ "reference": {
+  "vertical_median": 17.5,
+  "vertical_P90": 38.75,
+  "true_median": 16.444620863753396,
+  "true_P90": 36.41308905545395
+ },
+ "indicator": {
+  "vertical_median": 18.75,
+  "vertical_P90": 43.75,
+  "true_median": 17.61923663973578,
+  "true_P90": 41.11155215938349
+ },
+ "signed_distance": {
+  "vertical_median": 10.0,
+  "vertical_P90": 21.25,
+  "true_median": 9.396926207859085,
+  "true_P90": 19.968468191700556
+ },
+ "contacts": {
+  "vertical_median": 13.75,
+  "vertical_P90": 32.5,
+  "true_median": 12.92077353580624,
+  "true_P90": 30.540010175542022
+ }
+}

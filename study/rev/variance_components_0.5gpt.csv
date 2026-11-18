@@ -1,0 +1,4 @@
+quantity,between_shell,within_shell,total,share_between,unit
+tonnes,1.82659e+12,3.0889e+09,1.82968e+12,0.998312,t^2
+metal,6.4671e+12,7.00234e+10,6.53712e+12,0.989288,g^2
+grade,0.0242656,0.0036957,0.0279613,0.867828,(g/t)^2

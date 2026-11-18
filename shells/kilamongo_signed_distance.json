@@ -1,0 +1,70 @@
+{
+ "name": "Kilamongo_Au_0.3_signed_distance",
+ "drillholes": {
+  "collar": "../data/collar.csv",
+  "survey": "../data/survey.csv",
+  "intervals": "../data/assay.csv",
+  "value": "AU",
+  "columns": {
+   "hole": "BHID",
+   "x": "XCOLLAR",
+   "y": "YCOLLAR",
+   "z": "ZCOLLAR",
+   "depth": "AT",
+   "dip": "DIP",
+   "azimuth": "BRG",
+   "from_": "FROM",
+   "to": "TO"
+  },
+  "dip_positive_down": true,
+  "composite_length": 1.0,
+  "min_fraction": 0.5
+ },
+ "cutoff": 0.3,
+ "trend": {
+  "dip": 17.975221077,
+  "dip_azimuth": 67.69,
+  "pitch": 90,
+  "ranges": [
+   52.6323,
+   43.8603,
+   11.6961
+  ]
+ },
+ "interpolant": {
+  "kernel": "spherical",
+  "range_factor": 1.04,
+  "sill": 12.0,
+  "nugget": 0.30901,
+  "drift": "linear"
+ },
+ "surface": {
+  "iso": 0.25,
+  "spacing": 2.0,
+  "min_volume": 1000.0,
+  "bounds": [
+   [
+    621590,
+    9801940,
+    1288
+   ],
+   [
+    622090,
+    9802390,
+    1446.6
+   ]
+  ],
+  "topography": null
+ },
+ "validation": {
+  "folds": 0,
+  "reference": "Au_Ind_kila_0.3.dtm"
+ },
+ "output_dir": "out",
+ "method": "signed_distance",
+ "contacts": {
+  "delta": 2.0,
+  "max_half": 10.0,
+  "k": 8
+ }
+}

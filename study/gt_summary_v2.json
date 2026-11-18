@@ -1,0 +1,103 @@
+{
+ "reference": {
+  "nodes": 265460,
+  "envelope_kept": 0.7794,
+  "blocks": 44328,
+  "volume_m3": 2073906.25,
+  "composites": 4362,
+  "declustered_mean": 1.425440968907341,
+  "ok_nan": 0,
+  "ok_clipped": 38,
+  "sim_mean": 1.4562698435643604,
+  "ok_mean": 1.501972380511752,
+  "seconds": 509.0
+ },
+ "indicator": {
+  "nodes": 341382,
+  "envelope_kept": 0.8077,
+  "blocks": 54747,
+  "volume_m3": 2667046.875,
+  "composites": 4247,
+  "declustered_mean": 1.574017614509182,
+  "ok_nan": 61,
+  "ok_clipped": 98,
+  "sim_mean": 1.6114605478858761,
+  "ok_mean": 1.67751057879636,
+  "seconds": 746.9
+ },
+ "signed_distance": {
+  "nodes": 89255,
+  "envelope_kept": 0.8864,
+  "blocks": 15624,
+  "volume_m3": 697304.6875,
+  "composites": 2846,
+  "declustered_mean": 2.058233879906175,
+  "ok_nan": 0,
+  "ok_clipped": 0,
+  "sim_mean": 2.1383153309339753,
+  "ok_mean": 2.2453551908882354,
+  "seconds": 49.6
+ },
+ "contacts": {
+  "nodes": 241728,
+  "envelope_kept": 0.741,
+  "blocks": 40170,
+  "volume_m3": 1888500.0,
+  "composites": 4639,
+  "declustered_mean": 1.2688486679213744,
+  "ok_nan": 0,
+  "ok_clipped": 926,
+  "sim_mean": 1.3579739716226065,
+  "ok_mean": 1.4383571261075805,
+  "seconds": 373.8
+ },
+ "_meta": {
+  "realisations": 50,
+  "envelope": true,
+  "envelope_dmax": 50.0,
+  "snap": false,
+  "quick": false,
+  "cap": 30.0,
+  "variogram": {
+   "nugget": 0.193,
+   "struct1": {
+    "cc": 0.159,
+    "ranges": [
+     2.0,
+     2.0,
+     2.0
+    ]
+   },
+   "struct2": {
+    "cc": 0.648,
+    "ranges": [
+     19.9,
+     19.9,
+     19.9
+    ]
+   },
+   "azimuth": 75.0,
+   "dip": 20.0,
+   "rake": 0.0
+  },
+  "search": [
+   80.0,
+   80.0,
+   40.0
+  ],
+  "vario_file": "vario_model_zone.json",
+  "block": [
+   5.0,
+   5.0,
+   2.5
+  ],
+  "nodes_per_block": [
+   2,
+   2,
+   2
+  ],
+  "native": "3.4.2",
+  "total_minutes": 28.0,
+  "note": "tonnes and metal are per unit density: multiply by density in t/m3"
+ }
+}

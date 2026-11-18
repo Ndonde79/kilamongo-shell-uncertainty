@@ -1,0 +1,26 @@
+{
+ "reference": {
+  "node_volume_m3": 2660890.625,
+  "composites_inside": 4381,
+  "mean_au_inside": 1.9321867153617895,
+  "seconds": 22.3
+ },
+ "indicator": {
+  "node_volume_m3": 3301921.875,
+  "composites_inside": 4267,
+  "mean_au_inside": 2.0839746894773845,
+  "seconds": 0.4
+ },
+ "signed_distance": {
+  "node_volume_m3": 786679.6875,
+  "composites_inside": 2854,
+  "mean_au_inside": 2.643349684653118,
+  "seconds": 0.4
+ },
+ "contacts": {
+  "node_volume_m3": 2548710.9375,
+  "composites_inside": 4659,
+  "mean_au_inside": 1.663354797166774,
+  "seconds": 0.4
+ }
+}

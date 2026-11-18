@@ -1,0 +1,30 @@
+Drilling:
+DIP   BRG  
+90.0  0.0      630
+60.0  260.0    186
+      270.0      8
+45.0  260.0      2
+60.0  340.0      2
+70.0  242.0      2
+
+reference: contact dip % (0-15,15-30,...,75-90) [19. 37. 18. 11.  8.  7.]; gentle contacts dip-direction % N..NW [17. 40. 21.  7.  4.  3.  3.  6.]
+  thinnest body axis plunge 78 toward 97; axis sd (m) [ 26.2  76.3 101.3]
+  above collar surface 0.22; outside collar hull 0.00; >50 m from samples 0.00
+
+indicator: contact dip % (0-15,15-30,...,75-90) [17. 35. 19. 11.  9.  8.]; gentle contacts dip-direction % N..NW [17. 40. 19.  7.  4.  3.  4.  7.]
+  thinnest body axis plunge 80 toward 87; axis sd (m) [ 28.4  81.6 112.1]
+  above collar surface 0.19; outside collar hull 0.00; >50 m from samples 0.00
+
+signed_distance: contact dip % (0-15,15-30,...,75-90) [10. 27. 22. 16. 13. 12.]; gentle contacts dip-direction % N..NW [19. 32. 19.  8.  5.  4.  4.  9.]
+  thinnest body axis plunge 79 toward 78; axis sd (m) [23.9 73.1 93.6]
+  above collar surface 0.11; outside collar hull 0.00; >50 m from samples 0.00
+
+contacts: contact dip % (0-15,15-30,...,75-90) [20. 41. 19.  9.  6.  5.]; gentle contacts dip-direction % N..NW [18. 42. 19.  7.  3.  2.  3.  6.]
+  thinnest body axis plunge 79 toward 80; axis sd (m) [ 26.8  79.7 108.5]
+  above collar surface 0.26; outside collar hull 0.00; >50 m from samples 0.00
+orient.py:32: RuntimeWarning: invalid value encountered in divide
+  pr = cKDTree(P).query_pairs(32, output_type='ndarray'); d = P[pr[:, 1]] - P[pr[:, 0]]; h = np.linalg.norm(d, axis=1); u = d / h[:, None]
+
+Indicator 0.3 g/t, standardised gamma: down-hole 2/8 m 0.49/0.80; horizontal 12 m by azimuth 0..150: [np.float64(1.1), np.float64(0.98), np.float64(1.04), np.float64(0.94), np.float64(1.05), np.float64(1.06)] ; ENE 20-deg dipping 12 m 0.94
+
+Indicator 1.0 g/t, standardised gamma: down-hole 2/8 m 0.64/0.96; horizontal 12 m by azimuth 0..150: [np.float64(1.16), np.float64(1.05), np.float64(1.18), np.float64(1.05), np.float64(1.14), np.float64(1.15)] ; ENE 20-deg dipping 12 m 1.10

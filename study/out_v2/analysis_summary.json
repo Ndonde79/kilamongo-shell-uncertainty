@@ -1,0 +1,249 @@
+{
+ "density": "nearest logged SG (2.45/2.65/2.80)",
+ "mean_block_density": {
+  "reference": 2.651,
+  "indicator": 2.658,
+  "signed_distance": 2.628,
+  "contacts": 2.657
+ },
+ "reporting_cutoff": 0.5,
+ "tolerance": 0.15,
+ "confidence": 0.9,
+ "panel_quarter_m": [
+  40,
+  40,
+  10.0
+ ],
+ "panel_year_m": [
+  80,
+  80,
+  10.0
+ ],
+ "realisations": 50,
+ "at_cutoff": [
+  {
+   "shell": "reference",
+   "cutoff": 0.5,
+   "T_P10": 3.875,
+   "T_P50": 3.9471,
+   "T_P90": 4.0127,
+   "T_mean": 3.9488,
+   "G_P10": 1.8515,
+   "G_P50": 1.92,
+   "G_P90": 1.9725,
+   "G_mean": 1.917,
+   "koz_P10": 232.0149,
+   "koz_P50": 242.2818,
+   "koz_P90": 253.9259,
+   "koz_mean": 243.4504,
+   "T_OK": 5.3425,
+   "G_OK": 1.5317,
+   "koz_OK": 263.0856
+  },
+  {
+   "shell": "indicator",
+   "cutoff": 0.5,
+   "T_P10": 5.2847,
+   "T_P50": 5.371,
+   "T_P90": 5.4354,
+   "T_mean": 5.3641,
+   "G_P10": 1.9872,
+   "G_P50": 2.0346,
+   "G_P90": 2.1064,
+   "G_mean": 2.0369,
+   "koz_P10": 339.1452,
+   "koz_P50": 350.3089,
+   "koz_P90": 365.7689,
+   "koz_mean": 351.3159,
+   "T_OK": 6.9638,
+   "G_OK": 1.7004,
+   "koz_OK": 380.7133
+  },
+  {
+   "shell": "signed_distance",
+   "cutoff": 0.5,
+   "T_P10": 1.6206,
+   "T_P50": 1.6427,
+   "T_P90": 1.6685,
+   "T_mean": 1.6437,
+   "G_P10": 2.2399,
+   "G_P50": 2.3502,
+   "G_P90": 2.4293,
+   "G_mean": 2.3438,
+   "koz_P10": 117.5275,
+   "koz_P50": 124.8303,
+   "koz_P90": 129.7379,
+   "koz_mean": 123.8902,
+   "T_OK": 1.831,
+   "G_OK": 2.2479,
+   "koz_OK": 132.3294
+  },
+  {
+   "shell": "contacts",
+   "cutoff": 0.5,
+   "T_P10": 3.0173,
+   "T_P50": 3.065,
+   "T_P90": 3.1245,
+   "T_mean": 3.0703,
+   "G_P10": 2.0145,
+   "G_P50": 2.0825,
+   "G_P90": 2.1549,
+   "G_mean": 2.0843,
+   "koz_P10": 197.0425,
+   "koz_P50": 205.3288,
+   "koz_P90": 215.3753,
+   "koz_mean": 205.7815,
+   "T_OK": 4.3545,
+   "G_OK": 1.6177,
+   "koz_OK": 226.4729
+  }
+ ],
+ "decomposition_at_cutoff": [
+  {
+   "cutoff": 0.5,
+   "quantity": "tonnes",
+   "mean": 3506724.2734,
+   "cv_total": 0.3857,
+   "cv_geometry": 0.3854,
+   "cv_grade": 0.0158,
+   "share_geometry": 0.9983,
+   "share_grade": 0.0017
+  },
+  {
+   "cutoff": 0.5,
+   "quantity": "metal",
+   "mean": 7188314.4782,
+   "cv_total": 0.3557,
+   "cv_geometry": 0.3538,
+   "cv_grade": 0.0368,
+   "share_geometry": 0.9893,
+   "share_grade": 0.0107
+  },
+  {
+   "cutoff": 0.5,
+   "quantity": "grade",
+   "mean": 2.0955,
+   "cv_total": 0.0798,
+   "cv_geometry": 0.0743,
+   "cv_grade": 0.029,
+   "share_geometry": 0.8678,
+   "share_grade": 0.1322
+  }
+ ],
+ "classification": [
+  {
+   "shell": "reference",
+   "category": "Measured",
+   "Mt": 0.0,
+   "grade": 0.0,
+   "koz": 0.0,
+   "share_volume": 0.0
+  },
+  {
+   "shell": "reference",
+   "category": "Indicated",
+   "Mt": 0.0,
+   "grade": 0.0,
+   "koz": 0.0,
+   "share_volume": 0.0
+  },
+  {
+   "shell": "reference",
+   "category": "Inferred",
+   "Mt": 5.455,
+   "grade": 1.4631,
+   "koz": 256.5969,
+   "share_volume": 1.0
+  },
+  {
+   "shell": "indicator",
+   "category": "Measured",
+   "Mt": 0.0,
+   "grade": 0.0,
+   "koz": 0.0,
+   "share_volume": 0.0
+  },
+  {
+   "shell": "indicator",
+   "category": "Indicated",
+   "Mt": 0.0,
+   "grade": 0.0,
+   "koz": 0.0,
+   "share_volume": 0.0
+  },
+  {
+   "shell": "indicator",
+   "category": "Inferred",
+   "Mt": 7.078,
+   "grade": 1.6129,
+   "koz": 367.0473,
+   "share_volume": 1.0
+  },
+  {
+   "shell": "signed_distance",
+   "category": "Measured",
+   "Mt": 0.0,
+   "grade": 0.0,
+   "koz": 0.0,
+   "share_volume": 0.0
+  },
+  {
+   "shell": "signed_distance",
+   "category": "Indicated",
+   "Mt": 0.0,
+   "grade": 0.0,
+   "koz": 0.0,
+   "share_volume": 0.0
+  },
+  {
+   "shell": "signed_distance",
+   "category": "Inferred",
+   "Mt": 1.8317,
+   "grade": 2.1381,
+   "koz": 125.9158,
+   "share_volume": 1.0
+  },
+  {
+   "shell": "contacts",
+   "category": "Measured",
+   "Mt": 0.0,
+   "grade": 0.0,
+   "koz": 0.0,
+   "share_volume": 0.0
+  },
+  {
+   "shell": "contacts",
+   "category": "Indicated",
+   "Mt": 0.0,
+   "grade": 0.0,
+   "koz": 0.0,
+   "share_volume": 0.0
+  },
+  {
+   "shell": "contacts",
+   "category": "Inferred",
+   "Mt": 4.615,
+   "grade": 1.4445,
+   "koz": 214.3245,
+   "share_volume": 1.0
+  }
+ ],
+ "tonnage_for_tolerance_kt": {
+  "reference": {
+   "slope": -0.3935922748981734,
+   "kt_for_tol": 628.8775831415727
+  },
+  "indicator": {
+   "slope": -0.4005242114466502,
+   "kt_for_tol": 583.8773287319324
+  },
+  "signed_distance": {
+   "slope": -0.36421597961960495,
+   "kt_for_tol": 221.35008733883296
+  },
+  "contacts": {
+   "slope": -0.37310990969787505,
+   "kt_for_tol": 873.0406257572946
+  }
+ }
+}

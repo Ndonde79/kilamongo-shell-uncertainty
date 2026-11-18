@@ -1,0 +1,16 @@
+cff-version: 1.2.0
+message: "If you use these data or this code, please cite the paper and this archive."
+title: "kilamongo-shell-uncertainty: ore-shell interpretation and simulated gold inventory at Kilamongo South, Tanzania"
+version: 1.0.0
+date-released: 2026-11-18
+license: BSD-3-Clause
+authors:
+  - family-names: Ndonde
+    given-names: Ramadhani Waziri
+    orcid: "https://orcid.org/0009-0007-0675-9295"
+    affiliation: "DeepFusion Geoscience Limited, Dar es Salaam, Tanzania"
+references:
+  - type: software
+    title: "DeepRBF"
+    version: 3.4.2
+    doi: 10.5281/zenodo.24246601
