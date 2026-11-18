@@ -1,5 +1,7 @@
 # kilamongo-shell-uncertainty
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.24353092.svg)](https://doi.org/10.5281/zenodo.24353092)
+
 Data, code and results for the paper *Effects of Ore-Shell Interpretation on Simulated Gold Inventory and Production-Panel Uncertainty at Kilamongo South, Tanzania* (R.W. Ndonde, submitted to *Minerals*).
 
 The study builds three implicit ore shells with DeepRBF (indicator, signed-distance and contact formulations) from the same drill data, and keeps a fourth shell, from commercial implicit-modelling software, as a benchmark. Grade is simulated by sequential Gaussian simulation inside each shell and in the union of the shells. The between-shell and within-shell spread of tonnes, grade and metal is compared, and the precision of simulated metal is measured against aggregation tonnage.
@@ -32,4 +34,4 @@ DeepRBF 3.4.2 (https://github.com/Ndonde79/DeepRBF, tag v3.4.2, commit c8e01fa44
 
 ## Licence and citation
 
-Code: BSD 3-Clause (see `LICENSE`). Data and results: CC BY 4.0. Please cite the paper and this archive (see `CITATION.cff`).
+Code: BSD 3-Clause (see `LICENSE`). Data and results: CC BY 4.0. Please cite the paper and this archive, doi:10.5281/zenodo.24353092 (see `CITATION.cff`).
