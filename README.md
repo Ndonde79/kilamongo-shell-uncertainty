@@ -26,7 +26,7 @@ DeepRBF 3.4.2 (https://github.com/Ndonde79/DeepRBF, tag v3.4.2, commit c8e01fa44
 2. In `study/`: `build_masks.py` (2 m shell masks), `prep2.py` (simulation grid and shell membership), `orient.py` (zone geometry), `vario4.py` (variogram), `envelope.py` (reporting envelope).
 3. `RUN_GT_V2.bat` runs `gt_sim_zone2.py`: 50 SGS realisations and ordinary kriging in each shell (about 30 minutes on a workstation).
 4. `analyse_v7.py` and `figs_sim_v4.py`: grade–tonnage, variance decomposition, panel precision and figures. `boot_mean.py`: bootstrap of the declustered means.
-5. Revision analyses: `rev_stats.py` (variance components, sensitivity, panel precision), `rev_sim.py` (common grade model with `union 2 50`; discretisation with `signed_distance 1|2|3`), `rev_post.py`, `rev_check.py`, `figs_rev.py`, `fig_vol_rev.py`, `fig_var_rev.py`.
+5. Revision analyses: `rev_stats.py` (variance components, sensitivity, panel precision), `rev_sim.py` (common grade model with `union 2 50`; discretisation with `signed_distance 1|2|3`), `rev_post.py`, `rev_check.py`, `rev_check2.py` (node-level checks for each shell and the union run; run `rev_sim.py <shell> 2 50` first), `rev_panel2.py` (two-sided panel criterion), `figs_rev.py`, `fig_vol_rev.py`, `fig_var_rev.py`.
 
 `gt_blocks_v2.npz` holds the block-level realisations of the production run, so the analyses in steps 4 and 5 can be repeated without rerunning the simulation. The node-level realisations of the revision runs are not stored; `rev_sim.py` regenerates them with the same seed.
 
