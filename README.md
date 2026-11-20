@@ -2,7 +2,7 @@
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.24353092.svg)](https://doi.org/10.5281/zenodo.24353092)
 
-Data, code and results for the paper *Effects of Ore-Shell Interpretation on Simulated Gold Inventory and Production-Panel Uncertainty at Kilamongo South, Tanzania* (R.W. Ndonde, submitted to *Minerals*).
+Data, code and results for the paper *Ore-shell interpretation, not grade, controls resource uncertainty in a high-nugget gold deposit: Kilamongo South, Tanzania* (R.W. Ndonde, submitted to *Applied Earth Science: Transactions of the Institutions of Mining and Metallurgy*). An earlier version of the manuscript was titled *Effects of Ore-Shell Interpretation on Simulated Gold Inventory and Production-Panel Uncertainty at Kilamongo South, Tanzania*.
 
 The study builds three implicit ore shells with DeepRBF (indicator, signed-distance and contact formulations) from the same drill data, and keeps a fourth shell, from commercial implicit-modelling software, as a benchmark. Grade is simulated by sequential Gaussian simulation inside each shell and in the union of the shells. The between-shell and within-shell spread of tonnes, grade and metal is compared, and the precision of simulated metal is measured against aggregation tonnage.
 

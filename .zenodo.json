@@ -1,7 +1,7 @@
 {
   "title": "Kilamongo South ore-shell uncertainty: data, code and results",
   "upload_type": "software",
-  "description": "Drill-hole data, DeepRBF shell configurations, simulation and analysis scripts, and results for the paper 'Effects of Ore-Shell Interpretation on Simulated Gold Inventory and Production-Panel Uncertainty at Kilamongo South, Tanzania' (submitted to Minerals).",
+  "description": "Drill-hole data, DeepRBF shell configurations, simulation and analysis scripts, and results for the paper 'Ore-shell interpretation, not grade, controls resource uncertainty in a high-nugget gold deposit: Kilamongo South, Tanzania' (submitted to Applied Earth Science).",
   "creators": [{"name": "Ndonde, Ramadhani Waziri", "affiliation": "DeepFusion Geoscience Limited", "orcid": "0009-0007-0675-9295"}],
   "license": "BSD-3-Clause",
   "keywords": ["implicit modelling", "radial basis functions", "sequential Gaussian simulation", "geological uncertainty", "gold", "Tanzania"]
